@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .btn-base {
+    @apply rounded-lg bg-zinc-400 pt-1 pb-1 pr-2 pl-2 text-zinc-100  disabled:bg-slate-300 disabled:text-slate-200;
+  }
+}

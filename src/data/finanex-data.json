@@ -1,0 +1,417 @@
+{
+   "updated_trackings":[
+      {
+         "tracking_id":"c5aba223-6654-4e81-902a-d0a91b7ddbab",
+         "container_number":"ZCSU5862369",
+         "carrier_name":"ZIM Integrated Shipping Services Ltd",
+         "carrier_code":"ZIMU",
+         "consignee":"None",
+         "mbl_or_awb_number":"ZIMUBUE9026520",
+         "tracking_number":"ZIMUBUE9026520",
+         "pol_name":"Buenos Aires, Argentina, ARBUE",
+         "pod_name":"Ashdod, Israel, ILASH",
+         "reference_no":"",
+         "status":"Active",
+         "updated_at":"2023-09-22T00:21:38.853+05:30",
+         "container_type":"Reefer",
+         "container_size":"40 ft",
+         "events":[
+            {
+               "event_id":"1.0",
+               "event":"gate_in",
+               "location":"BUENOS AIRES, ARGENTINA",
+               "actual_date":"02/09/2023",
+               "planned_date":"02/09/2023",
+               "carrier_event":"Export gate-in from Customer to Port of Loading",
+               "original_planned_date":"02/09/2023",
+               "actual_datetime":"02/09/2023 08:08:00",
+               "planned_datetime":"02/09/2023 08:08:00",
+               "original_planned_datetime":"02/09/2023 08:08:00",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"Shipment Gated In On 02/09/2023",
+               "delayed":false,
+               "display_event":"Gate In",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"None",
+                  "vessel_name":""
+               },
+               "connected_port":"Buenos Aires, Argentina, ARBUE"
+            },
+            {
+               "event_id":"2.0",
+               "event":"origin_departure",
+               "location":"BUENOS AIRES, ARGENTINA",
+               "actual_date":"06/09/2023",
+               "planned_date":"06/09/2023",
+               "carrier_event":"Container was loaded at Port of Loading to Transshipment Port",
+               "original_planned_date":"06/09/2023",
+               "actual_datetime":"06/09/2023 01:04:00",
+               "planned_datetime":"06/09/2023 01:04:00",
+               "original_planned_datetime":"06/09/2023 01:04:00",
+               "discharge_or_loading_date":"06/09/2023",
+               "mode":"OCEAN",
+               "remarks":"Shipment Departed From Origin Port On 06/09/2023",
+               "delayed":false,
+               "display_event":"Origin Departure",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"21E",
+                  "vessel_name":"MAERSK LINS",
+                  "imo_number":9527025
+               },
+               "connected_port":"Buenos Aires, Argentina, ARBUE"
+            },
+            {
+               "event_id":"3.01",
+               "event":"trans_shipment_arrival",
+               "location":"SANTOS (SP), BRAZIL",
+               "actual_date":"14/09/2023",
+               "planned_date":"14/09/2023",
+               "carrier_event":"Vessel arrival to Transshipment Port",
+               "original_planned_date":"14/09/2023",
+               "actual_datetime":"14/09/2023 20:11:00",
+               "planned_datetime":"14/09/2023 20:11:00",
+               "original_planned_datetime":"14/09/2023 20:11:00",
+               "discharge_or_loading_date":"15/09/2023",
+               "mode":"OCEAN",
+               "remarks":"Shipment Arrived at Trans Shipment Port On 14/09/2023",
+               "delayed":false,
+               "display_event":"Trans Shipment Arrival",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"21E",
+                  "vessel_name":"MAERSK LINS",
+                  "imo_number":9527025
+               },
+               "connected_port":"Santos, Brazil, BRSSZ"
+            },
+            {
+               "event_id":"3.02",
+               "event":"trans_shipment_departure",
+               "location":"SANTOS (SP), BRAZIL",
+               "actual_date":"",
+               "planned_date":"22/09/2023",
+               "carrier_event":"outgoing",
+               "original_planned_date":"22/09/2023",
+               "actual_datetime":"",
+               "planned_datetime":"22/09/2023 00:00:00",
+               "original_planned_datetime":"22/09/2023 00:00:00",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Trans Shipment Departure",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"26",
+                  "vessel_name":"MSC ALBANY",
+                  "imo_number":9619438
+               },
+               "connected_port":"Santos, Brazil, BRSSZ"
+            },
+            {
+               "event_id":"3.03",
+               "event":"trans_shipment_arrival",
+               "location":"VALENCIA, SPAIN",
+               "actual_date":"",
+               "planned_date":"09/10/2023",
+               "carrier_event":"incoming",
+               "original_planned_date":"09/10/2023",
+               "actual_datetime":"",
+               "planned_datetime":"09/10/2023 00:00:00",
+               "original_planned_datetime":"09/10/2023 00:00:00",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Trans Shipment Arrival",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"26",
+                  "vessel_name":"MSC ALBANY",
+                  "imo_number":9619438
+               },
+               "connected_port":"Valencia, Spain, ESVLC"
+            },
+            {
+               "event_id":"3.04",
+               "event":"trans_shipment_departure",
+               "location":"VALENCIA, SPAIN",
+               "actual_date":"",
+               "planned_date":"14/10/2023",
+               "carrier_event":"outgoing",
+               "original_planned_date":"14/10/2023",
+               "actual_datetime":"",
+               "planned_datetime":"14/10/2023 00:00:00",
+               "original_planned_datetime":"14/10/2023 00:00:00",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Trans Shipment Departure",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"25",
+                  "vessel_name":"ZIM ATLANTIC",
+                  "imo_number":9440801
+               },
+               "connected_port":"Valencia, Spain, ESVLC"
+            },
+            {
+               "event_id":"4.0",
+               "event":"arrival",
+               "location":"ASHDOD, ISRAEL",
+               "actual_date":"",
+               "planned_date":"24/10/2023",
+               "carrier_event":"incoming",
+               "original_planned_date":"24/10/2023",
+               "actual_datetime":"",
+               "planned_datetime":"24/10/2023 00:00:00",
+               "original_planned_datetime":"24/10/2023 00:00:00",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Arrival",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"25",
+                  "vessel_name":"ZIM ATLANTIC",
+                  "imo_number":9440801
+               },
+               "connected_port":"Ashdod, Israel, ILASH"
+            },
+            {
+               "event_id":"5.0",
+               "event":"gate_out",
+               "location":"ASHDOD, ISRAEL",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Gate Out",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"Ashdod, Israel, ILASH"
+            }
+         ],
+         "stats":{
+            "last_ocean_event":{
+               "event_id":"last_ocean_event",
+               "event":"arrival",
+               "location":"ASHDOD, ISRAEL",
+               "actual_date":"",
+               "planned_date":"24/10/2023",
+               "carrier_event":"incoming",
+               "original_planned_date":"24/10/2023",
+               "actual_datetime":"",
+               "planned_datetime":"24/10/2023 00:00:00",
+               "original_planned_datetime":"24/10/2023 00:00:00",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Arrival",
+               "vessel_details":{
+                  "vessel_num":"",
+                  "voyage_num":"25",
+                  "vessel_name":"ZIM ATLANTIC",
+                  "imo_number":9440801
+               },
+               "connected_port":"Ashdod, Israel, ILASH"
+            },
+            "departure_event_of_last_ocean_event":{
+               "event_id":"departure_event_of_last_ocean_event",
+               "event":"gate_out",
+               "location":"ASHDOD, ISRAEL",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Gate Out",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"Ashdod, Israel, ILASH"
+            }
+         },
+         "ais_data":"None",
+         "tracking_link":"https://www.gocomet.com/customer/integration/tracking/c5aba223-6654-4e81-902a-d0a91b7ddbab",
+         "archived":false,
+         "other_data":{
+            
+         },
+         "shipment_remark":"None"
+      },
+      {
+         "tracking_id":"ff2bf69b-2cae-452c-bd08-c3e1d5f845c7",
+         "container_number":"Unassigned",
+         "carrier_name":"ZIM Integrated Shipping Services Ltd",
+         "carrier_code":"ZIMU",
+         "consignee":"None",
+         "mbl_or_awb_number":"ZIMUBUE9026615",
+         "tracking_number":"ZIMUBUE9026615",
+         "pol_name":"None",
+         "pod_name":"None",
+         "reference_no":"",
+         "status":"Pending",
+         "updated_at":"2023-09-22T00:22:12.205+05:30",
+         "container_type":"None",
+         "container_size":"None",
+         "events":[
+            {
+               "event_id":"1.0",
+               "event":"gate_in",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Gate In",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            },
+            {
+               "event_id":"2.0",
+               "event":"origin_departure",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Origin Departure",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            },
+            {
+               "event_id":"4.0",
+               "event":"arrival",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Arrival",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            },
+            {
+               "event_id":"5.0",
+               "event":"gate_out",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Gate Out",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            }
+         ],
+         "stats":{
+            "last_ocean_event":{
+               "event_id":"last_ocean_event",
+               "event":"arrival",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"OCEAN",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Arrival",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            },
+            "departure_event_of_last_ocean_event":{
+               "event_id":"departure_event_of_last_ocean_event",
+               "event":"gate_out",
+               "location":"None",
+               "actual_date":"",
+               "planned_date":"",
+               "carrier_event":"None",
+               "original_planned_date":"",
+               "actual_datetime":"",
+               "planned_datetime":"",
+               "original_planned_datetime":"",
+               "discharge_or_loading_date":"",
+               "mode":"TRUCK",
+               "remarks":"",
+               "delayed":false,
+               "display_event":"Gate Out",
+               "vessel_details":{
+                  
+               },
+               "connected_port":"None"
+            }
+         },
+         "ais_data":"None",
+         "tracking_link":"https://www.gocomet.com/customer/integration/tracking/ff2bf69b-2cae-452c-bd08-c3e1d5f845c7",
+         "archived":false,
+         "other_data":{
+            
+         },
+         "shipment_remark":"None"
+      }
+   ]
+}
